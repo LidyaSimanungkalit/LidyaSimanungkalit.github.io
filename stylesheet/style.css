@@ -20,9 +20,9 @@ li{
     font-family: 'Nunito', sans-serif;
     font-size:15px;
     float: left;
-    padding: 20px 40px;
-    margin-bottom: 5px;
-    padding-top : 15px;
+    height : 30px;
+    padding: 10px 30px;
+    /* padding-top : 15px; */
 }
 .header-list li{
     display: inline-block;
@@ -45,7 +45,9 @@ li{
     display: inline-block;
     width: 400px; 
     height:30px; 
-    border: 1px solid rgb(8, 208, 172);  }
+    border: 1px solid rgb(8, 208, 172);
+    margin-top: 10px;
+      }
 .placholder{
     
     border: 1px solid rgb(8, 208, 172);
@@ -58,14 +60,29 @@ ul li a{
     color:#1F96FF;}
 ul li a:hover{
     color:#12c9cf;}
+body{
+    background-color: white;
+    color: black;
+
+}
+
 .main{
-   background-color: #ffffff;}   
+   background-color: #ffffff;} 
+/* .dark-mode{
+    background-color: rgb(155, 144, 144);
+    
+}  */
+
 .contents{
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 8px;
         padding-left: 0px;
         margin-bottom: 0px;}
+#btn-info{
+    margin-left: 560 px;
+        
+        }
 .section-title{
     padding-top: 0px 0px 0px 10px;
    
@@ -141,13 +158,13 @@ color:#1F96FF ; }
      /* margin-right:10px;   */}
 
     
-.data td{
+#data td{
         font-size: 15px;
        
         }
     
 /* untuk padding nama */
-.nama pre{
+#nama pre{
     font-family: 'Nunito', sans-serif;
     padding-left: 60px;}
 
@@ -155,9 +172,9 @@ color:#1F96FF ; }
 
 
     /* fooooter */
-.footer{
+footer{
     background-color: #C4E1FF;
-    color: rgb(10, 10, 10);
+    color:  #1F96FF;
     height: 150px;}
 .footer-logo{
     font-size:32px;
